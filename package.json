@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch --env-file=.env src/server.ts"
+    "dev": "tsx watch --env-file=.env src/server.ts",
+    "build": "tsup-node"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "ioredis": "^5.5.0",
     "pg": "^8.13.3",
     "postgres": "^3.4.5",
+    "tsup": "^8.3.6",
     "zod": "^3.24.2"
   },
   "devDependencies": {

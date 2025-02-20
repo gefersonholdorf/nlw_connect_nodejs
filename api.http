@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Geferson",
-    "email": "geferson@gmail.com"
+    "name": "Nodvo Teste11",
+    "email": "ndovoteste11@gmail.com",
+    "referrer": "b67e8fc0-5ba4-408f-9ab0-4f2df35ded21"
 }
 
 ###
 
-GET http://localhost:3333/invite/geferson123
+GET http://localhost:3333/invite/01fa1706-4239-4c5a-a053-ca37c4c5e580
+
+###
+
+GET http://localhost:3333/subscribers/01fa1706-4239-4c5a-a053-ca37c4c5e580/rankink/clicks
+
+###
+
+GET http://localhost:3333/subscribers/01fa1706-4239-4c5a-a053-ca37c4c5e580/rankink/count
+
+###
+
+GET http://localhost:3333/subscribers/01fa1706-4239-4c5a-a053-ca37c4c5e580/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
